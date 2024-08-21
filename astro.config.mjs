@@ -24,6 +24,7 @@ export default defineConfig({
 				patreon: 'https://www.patreon.com/AQORG',
 				reddit: 'https://www.reddit.com/r/aq_organization',
 				slack: 'https://aq-organization.slack.com',
+				stackOverflow: 'https://stackoverflow.com/users/25469681/aq-org',
 			},
 		}),
 	],
