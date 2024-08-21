@@ -17,7 +17,7 @@ export default defineConfig({
 				discord: 'https://discord.gg/JCKzxavG',
 				twitch: 'https://www.twitch.tv/axa6t',
 				bitbucket: 'https://bitbucket.org/ax-6/aq',
-				bluesky: 'https://bsky.app/profile/aq-org.bsky.social',
+				blueSky: 'https://bsky.app/profile/aq-org.bsky.social',
 				codeberg: 'https://codeberg.org/aq-org/AQ',
 				openCollective: 'https://opencollective.com/aq-org',
 				mastodon: 'https://mastodon.social/@aqorg',
