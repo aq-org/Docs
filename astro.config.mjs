@@ -26,6 +26,16 @@ export default defineConfig({
 				slack: 'https://aq-organization.slack.com',
 				stackOverflow: 'https://stackoverflow.com/users/25469681/aq-org',
 			},
+			locales: {
+				root: {
+					label: 'English',
+					lang: 'en',
+				},
+				'zh-Hans': {
+					label: '简体中文',
+					lang: 'zh-Hans',
+				},
+			},
 		}),
 	],
 });
