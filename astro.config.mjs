@@ -31,7 +31,7 @@ export default defineConfig({
 					label: 'English',
 					lang: 'en',
 				},
-				'zh-Hans': {
+				'zh-hans': {
 					label: '简体中文',
 					lang: 'zh-Hans',
 				},
