@@ -40,7 +40,7 @@ export default defineConfig({
 					label: 'عربي',
 					lang: 'ar',
 				},
-				'zh-Hans': {
+				'zh-hans': {
 					label: '简体中文',
 					lang: 'zh-Hans',
 				},
@@ -62,7 +62,7 @@ export default defineConfig({
 					label: 'Get Started',
 					translations: {
 						ar: 'ابدأ',
-						'zh-Hans': '快速开始',
+						'zh-hans': '快速开始',
 						fr: 'Commencer',
 						ru: 'Начало работы',
 						es: 'Empezar',
@@ -72,7 +72,7 @@ export default defineConfig({
 					label: 'Guides',
 					translations: {
 						ar: 'أدلة',
-						'zh-Hans': '指南',
+						'zh-hans': '指南',
 						fr: 'Guides',
 						ru: 'Руководства',
 						es: 'Guías',
@@ -83,7 +83,7 @@ export default defineConfig({
 					label: 'Developer Docs',
 					translations: {
 						ar: 'وثائق المطور',
-						'zh-Hans': '开发者文档',
+						'zh-hans': '开发者文档',
 						fr: 'Docs Développeur',
 						ru: 'Документация разработчика',
 						es: 'Documentación de Desarrollador',
@@ -94,7 +94,7 @@ export default defineConfig({
 					label: 'FAQs',
 					translations: {
 						ar: 'الأسئلة الشائعة',
-						'zh-Hans': '常见问题',
+						'zh-hans': '常见问题',
 						fr: 'FAQs',
 						ru: 'Часто задаваемые вопросы',
 						es: 'Preguntas Frecuentes',
