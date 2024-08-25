@@ -6,6 +6,11 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'AQ Docs',
+			logo: {
+				light: '/src/assets/aq-logo.svg',
+				dark: '/src/assets/aq-logo.svg',
+				replacesTitle: true,
+			},
 			social: {
 				github: 'https://github.com/aq-org/AQ',
 				gitlab: 'https://gitlab.com/aqorg/AQ',
@@ -31,11 +36,72 @@ export default defineConfig({
 					label: 'English',
 					lang: 'en',
 				},
+				ar: {
+					label: 'عربي',
+					lang: 'ar',
+				},
 				'zh-hans': {
 					label: '简体中文',
 					lang: 'zh-Hans',
 				},
+				fr: {
+					label: 'Français',
+					lang: 'fr',
+				},
+				ru: {
+					label: 'Русский',
+					lang: 'ru',
+				},
+				es: {
+					label: 'Español',
+					lang: 'es',
+				},
 			},
+			sidebar: [
+				{
+					label: 'Get Started',
+					translations: {
+						ar: 'ابدأ',
+						'zh-hans': '快速开始',
+						fr: 'Commencer',
+						ru: 'Начало работы',
+						es: 'Empezar',
+					},
+				},
+				{
+					label: 'Guides',
+					translations: {
+						ar: 'أدلة',
+						'zh-hans': '指南',
+						fr: 'Guides',
+						ru: 'Руководства',
+						es: 'Guías',
+					},
+					autogenerate: { directory: 'guides' },
+				},
+				{
+					label: 'Developer Docs',
+					translations: {
+						ar: 'وثائق المطور',
+						'zh-hans': '开发者文档',
+						fr: 'Docs Développeur',
+						ru: 'Документация разработчика',
+						es: 'Documentación de Desarrollador',
+					},
+					autogenerate: { directory: 'developer' },
+				},
+				{
+					label: 'FAQs',
+					translations: {
+						ar: 'الأسئلة الشائعة',
+						'zh-hans': '常见问题',
+						fr: 'FAQs',
+						ru: 'Часто задаваемые вопросы',
+						es: 'Preguntas Frecuentes',
+					},
+					autogenerate: { directory: 'faqs' },
+				},
+			],			
 		}),
 	],
 });
