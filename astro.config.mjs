@@ -59,6 +59,17 @@ export default defineConfig({
 			},
 			sidebar: [
 				{
+					label: 'Overview',
+					translations: {
+						ar: 'نظرة عامة',
+						'zh-CN': '概述',
+						fr: 'Vue d\'ensemble',
+						ru: 'Обзор',
+						es: 'Visión General',
+					},
+					link: 'overview',
+				},
+				{
 					label: 'Get Started',
 					translations: {
 						ar: 'ابدأ',
@@ -67,7 +78,7 @@ export default defineConfig({
 						ru: 'Начало работы',
 						es: 'Empezar',
 					},
-					link: '/get-started',
+					autogenerate: { directory: 'get-started' },
 				},
 				{
 					label: 'Guides',
@@ -102,6 +113,17 @@ export default defineConfig({
 					},
 					autogenerate: { directory: 'faqs' },
 				},
+				{
+					label: 'Resources',
+					translations: {
+						ar: 'موارد',
+						'zh-CN': '资源',
+						fr: 'Ressources',
+						ru: 'Ресурсы',
+						es: 'Recursos',
+					},
+					autogenerate: { directory: 'resources' },
+				}
 			],
 		}),
 	],
