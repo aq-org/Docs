@@ -110,7 +110,7 @@ export default defineConfig({
 								ru: 'Виртуальная машина AQ',
 								es: 'Máquina Virtual AQ',
 							},
-							autogenerate: { directory: 'aqvm' },
+							autogenerate: { directory: 'developer/aqvm' },
 						}
 					],
 				},
