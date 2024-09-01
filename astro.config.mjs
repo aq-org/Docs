@@ -100,7 +100,19 @@ export default defineConfig({
 						ru: 'Документация разработчика',
 						es: 'Documentación de Desarrollador',
 					},
-					autogenerate: { directory: 'developer' },
+					items: [
+						{
+							label: 'AQ Virtual Machine',
+							translations: {
+								ar: 'الجهاز الظاهري AQ',
+								'zh-CN': 'AQ 虚拟机',
+								fr: 'Machine Virtuelle AQ',
+								ru: 'Виртуальная машина AQ',
+								es: 'Máquina Virtual AQ',
+							},
+							autogenerate: { directory: 'aqvm' },
+						}
+					],
 				},
 				{
 					label: 'FAQs',
